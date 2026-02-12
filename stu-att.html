@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Admin Dashboard</title>
+  <link rel="stylesheet" href="stu-att.css">
+</head>
+<body>
+
+  <header>
+    <h1>📊 Feedback Dashboard</h1>
+    <p>College Online Feedback System</p>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <h2>Total Feedbacks</h2>
+      <p id="totalFeedback">0</p>
+    </div>
+    <div class="card">
+      <h2>Average Rating</h2>
+      <p id="avgRating">0 ⭐</p>
+    </div>
+    <div class="card">
+      <h2>Best Faculty</h2>
+      <p id="bestFaculty">-</p>
+    </div>
+  </section>
+
+  <section class="chart">
+    <h2>Subject Wise Ratings</h2>
+    <div class="bar-container">
+      <div class="bar"><span>Maths</span><div id="maths" class="fill"></div></div>
+      <div class="bar"><span>Physics</span><div id="physics" class="fill"></div></div>
+      <div class="bar"><span>CS</span><div id="cs" class="fill"></div></div>
+    </div>
+  </section>
+
+  <script src="Main.java" defer></script>
+</body>
+</html>
